@@ -1,0 +1,32 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 0 4rem;
+  border-top: solid 1px var(--border);
+
+  .prev {
+    width: 45%;
+  }
+
+  .next {
+    width: 45%;
+    text-align: right;
+  }
+
+  a {
+    text-align: left;
+    width: 45%;
+
+    p {
+      text-align: right;
+      color: var(--heading);
+      font-size: 1.125rem;
+      padding-bottom: 0.5rem;
+    }
+
+    span {
+      color: var(--highlight);
+    }
+  }
+}
